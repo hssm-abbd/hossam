@@ -1,0 +1,6 @@
+
+{
+  "name": "Minimalist CS Portfolio",
+  "description": "A clean, modern portfolio for a Computer Science student featuring projects, skills, and an AI-powered personal assistant.",
+  "requestFramePermissions": ["microphone"]
+}
