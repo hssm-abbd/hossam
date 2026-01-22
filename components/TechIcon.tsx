@@ -67,11 +67,9 @@ const icons: Record<string, React.ReactNode> = {
 export const AVAILABLE_ICONS = Object.keys(icons);
 
 export const TechIcon = ({ name, className = "w-3 h-3" }: { name: string; className?: string }) => {
-    const Icon = icons[name] || (
-        <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z" />
-        </svg>
-    );
+    const Icon = icons[name];
+
+    if (!Icon) return null;
 
     return <div className={className}>{Icon}</div>;
 }
