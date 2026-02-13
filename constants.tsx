@@ -15,21 +15,20 @@ export const PROJECTS: Project[] = [
     id: '2',
     title: 'Voice Pathology Detection Using Machine Learning',
     description: 'A machine learning project for voice pathology detection using the Saarbruecken Voice Database.',
-    githubUrl: 'https://github.com',
-    technologies: ['Python', 'TensorFlow', 'Numpy', 'Pandas']
+    githubUrl: 'https://github.com/hssm-abbd/voice-pathology-detection',
+    technologies: ['Python', 'TensorFlow', 'Numpy', 'Pandas', 'Librosa', 'Parselmouth']
   },
   {
     id: '3',
     title: 'E-Commerce Website',
     description: 'An E-Commerce website built with PHP, featuring a modern design.',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/hssm-abbd/e-commerce',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Bootstrap']
   },
   {
     id: '4',
     title: 'Examec',
     description: 'AI powered exam generation for algerian teachers.',
-    githubUrl: 'https://github.com',
     technologies: ['TypeScript', 'React', 'Next.js', 'Tailwind']
   }
 ];

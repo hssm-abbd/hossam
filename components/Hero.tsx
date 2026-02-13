@@ -23,9 +23,9 @@ const Hero: React.FC = () => {
           <p className="text-lg md:text-xl font-medium text-brand mb-6">
             {PERSONAL_INFO.role}
           </p>
-          <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-8 max-w-lg">
+          <p className="text-zinc-700 dark:text-zinc-400 leading-relaxed mb-8 max-w-lg">
             I'm an AI student with a deep interest in utilizing ML/DL for healthcare.
-            I focus on building tools that solve real clinical problems. I also like to build
+            I focus on building tools that solve real clinical problems. I also build
             AI-powered web applications using Next.js.
           </p>
 
